@@ -14,15 +14,15 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   title: {
-    default: "Fish's Blog",
+    default: "HAOHAO's Blog",
     template: "",
   },
   description: "This is my Blog.",
   openGraph: {
-    title: "Fish's Blog",
+    title: "HAOHAO's Blog",
     description: "This is my Blog.",
     url: baseUrl,
-    siteName: "Fish's Blog",
+    siteName: "HAOHAO's Blog",
     locale: "zh_CN",
     type: "website",
   },
