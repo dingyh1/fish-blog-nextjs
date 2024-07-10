@@ -30,7 +30,8 @@ export function Navbar() {
                   key={path}
                   href={path}
                   className={`transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1 ${
-                    pathname === path
+                    pathname === path ||
+                    (path !== "/" && pathname.includes(path))
                       ? "text-neutral-900 dark:text-neutral-100 font-bold"
                       : "text-neutral-600 dark:text-neutral-400"
                   }`}>

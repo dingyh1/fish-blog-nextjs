@@ -10,6 +10,9 @@ import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
+  icons: {
+    icon: "/favicon.ico",
+  },
   title: {
     default: "Fish's Blog",
     template: "",
@@ -20,7 +23,7 @@ export const metadata: Metadata = {
     description: "This is my Blog.",
     url: baseUrl,
     siteName: "Fish's Blog",
-    locale: "en_US",
+    locale: "zh_CN",
     type: "website",
   },
   robots: {
